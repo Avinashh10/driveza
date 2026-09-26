@@ -9,7 +9,7 @@ const featuredCars = cars
 export default function Home() {
   return (
     <main className="bg-[#f7f7f3]">
-      <section className="overflow-hidden bg-[#171717] text-white">
+      <section id="home" className="scroll-mt-20 overflow-hidden bg-[#171717] text-white">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-12 sm:px-8 sm:py-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14 lg:py-20">
           <div className="relative z-10">
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#D4D4D4]">
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20">
+      <section id="about" className="scroll-mt-20 mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20">
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:gap-16">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#202020]">
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#f7f7f3]">
+      <section id="cars" className="scroll-mt-20 bg-[#f7f7f3]">
         <div className="mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-20">
           <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
             <div>
